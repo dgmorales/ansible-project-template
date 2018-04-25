@@ -1,0 +1,6 @@
+---
+- name: test play
+  hosts: testhost
+  tasks:
+    - name:
+      debug: msg="{{ ansible_ssh_pass }}"
